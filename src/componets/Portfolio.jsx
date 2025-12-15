@@ -15,27 +15,27 @@ export default function Portfolio() {
   }, []);
 
   const skills = [
-    { name: 'React', level: 90 },
+    { name: 'React', level: 80 },
     { name: 'JavaScript', level: 85 },
-    { name: 'HTML', level: 95 },
-    { name: 'CSS', level: 90 },
+    { name: 'HTML', level: 80 },
+    { name: 'CSS', level: 85 },
     { name: 'Git & GitHub', level: 80 }
   ];
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured shopping platform built with React and modern UI/UX principles',
-      tech: ['React', 'CSS', 'JavaScript']
+      title: 'Gym Management System ',
+      description: 'A complete gym management application focused on admin and member operations, including authentication, trainer/class/equipment management, membership plans, and payment handling. Designed with multiple admin pages and full CRUD functionality. ',
+      tech: ['Node.js, Express, MongoDB, JWT, Nodemailer, HTML, CSS, JavaScript']
     },
     {
-      title: 'Task Management App',
-      description: 'Productivity tool with drag-and-drop functionality and local storage',
-      tech: ['React', 'HTML', 'CSS']
+      title: 'Tic-Tac-Toe Game',
+      description: 'A two-player turn-based game with real-time win/draw detection, turn indicator, and restart functionality. Features a colorful and engaging interface designed for a fun gameplay experience while exploring state management in React.',
+      tech: ['React, JavaScript, CSS ']
     },
     {
-      title: 'Portfolio Websites',
-      description: 'Multiple responsive portfolio sites for clients with custom designs',
+      title: 'Todo List Application',
+      description: 'Task management app that allows users to add, delete, and reorder tasks using up/down buttons,offering a smooth experience with a simple and modern interface. ',
       tech: ['React', 'JavaScript', 'CSS']
     }
   ];
